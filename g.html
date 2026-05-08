@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bishkek Life</title>
+<link rel="stylesheet" href="style.css">
+
+  
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+   <script src="cait.js"></script>
+
+  <header>
+    <h1>🌆 Bishkek Life</h1>
+  </header>
+
+  <nav>
+    <a href="#help">Соц помощь</a>
+    <a href="#places">Интересные места</a>
+    <a href="#news">Новости</a>
+    <a href="#about">О проекте</a>
+  </nav>
+<section id="help">
+  <h2 class="title">🤝 Социальная помощь</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1000" alt="Волонтерство">
+
+      <div class="card-content">
+        <h3>Волонтерство</h3>
+
+        <p>
+          Помощь пожилым людям, уборка парков,
+          поддержка мероприятий и добрые дела.
+        </p>
+
+        <button onclick="window.location.href='https://volunteer.kg/'">
+          Присоединиться
+        </button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?q=80&w=1000" alt="Приюты">
+
+      <div class="card-content">
+        <h3>Приюты для животных</h3>
+
+        <p>
+          Помощь бездомным животным,
+          корм, лечение и поиск новых хозяев.
+        </p>
+
+        <button onclick="window.location.href='https://www.instagram.com/dobrieruki.kg/'">
+          Подробнее
+        </button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1000" alt="Раздача еды">
+
+      <div class="card-content">
+        <h3>Раздача еды</h3>
+
+        <p>
+          Поддержка нуждающихся:
+          горячая еда, продукты и гуманитарная помощь.
+        </p>
+
+        <button onclick="window.location.href='https://www.facebook.com/groups/foodsharing.kg/about'">
+          Помочь
+        </button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1000" alt="Пожертвования">
+
+      <div class="card-content">
+        <h3>Пожертвования</h3>
+
+        <p>
+          Финансовая поддержка фондов,
+          сбор вещей и помощь семьям.
+        </p>
+
+        <button onclick="window.location.href='https://pomogatlegko.kg/donate/?pay='">
+          Пожертвовать
+        </button>
+      </div>
+    </div>
+
+  </div>
+</section>
+  <section id="places">
+  <h2 class="title">📍 Интересные места Бишкека</h2>
+
+  <div class="slider">
+
+    <button class="slide-btn prev" onclick="moveSlide(-1)">
+      ❮
+    </button>
+
+    <div class="slides" id="slides">
+
+      <div class="slide">
+        <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=1000">
+
+        <div class="slide-content">
+          <h3>Ала-Тоо</h3>
+          <p>Главная площадь Бишкека.</p>
+
+          <button onclick="window.location.href='https://ru.wikipedia.org/wiki/Площадь_Ала-Тоо'">
+            Подробнее
+          </button>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1000">
+
+        <div class="slide-content">
+          <h3>Парк Панфилова</h3>
+          <p>Популярный парк с аттракционами.</p>
+
+          <button onclick="window.location.href='https://ru.wikipedia.org/wiki/Парк_Панфилова_(Бишкек)'">
+            Подробнее
+          </button>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1000">
+
+        <div class="slide-content">
+          <h3>Ошский базар</h3>
+          <p>Известный рынок Кыргызстана.</p>
+
+          <button onclick="window.location.href='https://ru.wikipedia.org/wiki/Ошский_рынок'">
+            Подробнее
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="slide-btn next" onclick="moveSlide(1)">
+      ❯
+    </button>
+
+  </div>
+</section>
+
+  <section id="news">
+    <h2 class="title">📰 Новости</h2>
+
+    <div class="news">
+
+      <div class="news-item">
+        <h3>Новый парк в Бишкеке</h3>
+        <p>В столице планируют открыть современную зону отдыха для молодежи.</p>
+      </div>
+
+      <div class="news-item">
+        <h3>Фестиваль еды</h3>
+        <p>На выходных пройдет большой фестиваль национальной кухни.</p>
+      </div>
+
+      <div class="news-item">
+        <h3>Концерт под открытым небом</h3>
+        <p>В центре города состоится бесплатный музыкальный вечер.</p>
+      </div>
+
+    </div>
+  </section>
+  <section id="ads">
+  <h2 class="title">🔥 Реклама</h2>
+
+  <div class="card" style="max-width:900px; margin:auto;">
+    <img src="https://i.pinimg.com/474x/0f/33/51/0f33519f3e750376896dd471f7654dc3.jpg"
+     alt="Реклама"
+     style="width:100%; height: 100%; object-fit:cover;">
+    <div class="card-content">
+      <h3>Твоя реклама</h3>
+      <p>
+        Здесь может быть ваша реклама, но пока здесь Шрек
+      </p>
+
+      <button onclick="window.location.href='https://example.com'">
+        Перейти
+      </button>
+    </div>
+  </div>
+</section>
+
+  <section id="about">
+    <h2 class="title"> О сайте</h2>
+
+    <p style="text-align:center; font-size:20px;">
+      Этот сайт создан для ознокомления и помощи в Бишкеке
+    </p>
+  </section>
+
+  <footer>
+    © 2026 Bishkek Life | Сделано в VS Code
+  </footer>
+
+
+</body>
+</html>
